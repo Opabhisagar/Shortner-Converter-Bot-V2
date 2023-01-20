@@ -7,14 +7,14 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+API_ID = int(os.getenv("API_ID", "28605803"))
+API_HASH = os.environ.get("API_HASH", "5128d225bdcb1f5d375ed9550af15620")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5947931209:AAH4xtZbVIobZQ6Y8QRm5vqdl0tXrXITRyk")
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("944893221")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Opmoviehub")
 DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "944893221")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
 #  Optionnal variables
